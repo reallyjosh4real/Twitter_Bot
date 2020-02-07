@@ -29,13 +29,13 @@ From here I was interested in the emojis in the text. I was able to run the text
 ![screenshot](https://github.com/reallyjosh4real/Twitter_Bot/blob/master/images/Screen_Shot_2020-02-06_at_2.31.21_PM.PNG)
 
 
-I then used scattertext with a spacy pipline to plot a spatial word frequency plot with blue representing Apple Support and the red is Amazon Help. This graph basically shows that there are alot of similar words used by both groups represented by the light yellow are in the middle of the plot.  The top left corner represents most frequent words used specifically by Apple Support while the bottom right plotted words are representative of frequent words characteristic to Amazon Help.
+I then used scattertext with a spacy pipline to plot a spatial word frequency plot with blue representing Apple Support and the red being Amazon Help. This graph basically shows that there are alot of similar words used by both groups represented by the light yellow are in the middle of the plot.  The top left corner represents most frequent words used specifically by Apple Support while the bottom right plotted words are representative of frequent words characteristic to Amazon Help.
 
 ![screenshot](https://github.com/reallyjosh4real/Twitter_Bot/blob/master/images/Screen_Shot_2020-02-06_at_2.34.28_PM.PNG)
 
 
 
-There is a package called empath that once imported with scattertext can group words into topics.
+There is a package called empath that once imported with scattertext can group words into pre defined topics. Here is that plot.
 
 ![screenshot](https://github.com/reallyjosh4real/Twitter_Bot/blob/master/images/Screen_Shot_2020-02-06_at_2.36.07_PM.PNG)
 
@@ -44,6 +44,7 @@ There is a package called empath that once imported with scattertext can group w
 After visualizing topics with scattertext I decided to take just Apple Support data and run hard and soft clustering on the text data to see if one would be better at predicting cluster trends in data for more accurate responses.
 
 ## Model
+I decided to try both a hard and a soft clustering machine learning technique on my text to see if given the same k topics would one be more interpretable.
 
 ### K-means / Hard Clustering
 I first plotted distortion of my X_train in reference to cluster number to visualy see where the elobow of inflection seemed to be. I chose 13 as my number of topics because it is the point in which distortion is at its lowest. 
