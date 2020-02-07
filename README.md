@@ -13,6 +13,8 @@ I decided to work with a twitter customer question and response data set that in
 
 <code>tweet_id  author_id	inbound  created_at text response_tweet_id in_response_to_tweet_id</code>
 
+![screenshot](images/Screen Shot 2020-02-06 at 10.47.21 PM.PNG)
+
 <img src="/Users/ramozo_88/Twitter_Bot/images/Screen Shot 2020-02-06 at 10.47.21 PM.PNG">
 
 
@@ -25,6 +27,8 @@ I merged question tweets with response tweets on author_id and response_tweet_id
 <img src='/Users/ramozo_88/Twitter_Bot/images/tweet_counts_per_company.PNG'>
 
 From here I was interested in the emojis in the text. I was able to run the text through a spacy pipeline with an emoji paser. I managed to get the most frequent emojis used by customers directed at companies. Mostly emojis themed in frustration.
+
+![screenshot](/Users/ramozo_88/Twitter_Bot/images/Screen_Shot_2020-02-06_at_2.31.21_PM.md)
 
 <img src="/Users/ramozo_88/Twitter_Bot/images/Screen Shot 2020-02-06 at 2.31.21 PM.PNG">
 
