@@ -104,4 +104,4 @@ if __name__ == "__main__":
     visualizer = KElbowVisualizer(model, k=(3,15), timings=False, locate_elbow=False )
 
     visualizer.fit(X)        # Fit the data to the visualizer
-    visualizer.show(outpath='/Users/ramozo_88/Twitter_Bot/images/kmeans_elbow_graph.PNG') 
+    
