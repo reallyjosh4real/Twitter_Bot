@@ -17,7 +17,7 @@ I decided to work with a twitter customer question and response data set that in
 
 
 ## EDA
-I merged question tweets with response tweets on author_id and response_tweet_id. Getting the paired QA data was in my mind the first step the being able to predict answers given questions. 
+I merged question tweets with response tweets on author_id and response_tweet_id. Getting the paired QA data was in my mind the first step in being able to predict answers given questions. 
 
 ![screenshot](https://github.com/reallyjosh4real/Twitter_Bot/blob/master/images/Screen_Shot_2020-02-06_at_2.32.16_PM.PNG)
 
