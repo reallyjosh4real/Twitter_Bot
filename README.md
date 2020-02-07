@@ -36,20 +36,26 @@ There is a package called empath that once imported with scattertext can group w
 
 <img src="/Users/ramozo_88/Twitter_Bot/images/Screen Shot 2020-02-06 at 2.36.07 PM.PNG">
 
+After visualizing topics with scattertext I decided to take just Apple Support data and run hard and soft clustering on the text data to see if one would be better at predicting cluster trends in data for more accurate responses.
 
 ## Model
 
 ### K-means / Hard Clustering
+I first plotted distortion of my X_train in reference to cluster number to visualy see where the elobow of inflection seemed to be. I chose 13 as my number of topics because it is the point in which distortion is at its lowest. 
 
 <img src="/Users/ramozo_88/Twitter_Bot/images/kmeans_elbow_graph.PNG">
 
 Distortion: mean sum of squared distances to centers
+
 Customer Questions:
 
 <img src="/Users/ramozo_88/Twitter_Bot/images/Screen Shot 2020-02-07 at 3.59.25 AM.png">
+In general the question topics seem to all have a similar theme of buggy updates. Clusters 2,3,4,8,10 and 11 all deal with iphone update and crashing in varying degrees.
+
 Company Responses:
 
 <img src="/Users/ramozo_88/Twitter_Bot/images/Screen Shot 2020-02-07 at 4.03.00 AM.png">
+Company responses seemed to be a bit more polite than their customer counterparts. Cluster 0 does look like a response to cluster 0 in Customer Questions. Other than that one cluster it was hard for me to match QA clusters using k-means model. There is definitely structure in the cluster but interpritability isnt as clear. 
 
 ### LDA / Soft Clustering 
 Customer Questions:
@@ -57,14 +63,18 @@ Customer Questions:
 <img src="/Users/ramozo_88/Twitter_Bot/images/Screen Shot 2020-02-07 at 2.39.42 AM.png">
 <img src="/Users/ramozo_88/Twitter_Bot/images/Screen Shot 2020-02-07 at 2.40.08 AM.png">
 
+The soft clustering provided by LDA allows for a little more insight into what the update issue is in each topic. For example, Topic 1 deals with battery issues. Topic 2 with high sierra ios problems. 
+
 Company Responses:
 
 <img src="/Users/ramozo_88/Twitter_Bot/images/Screen Shot 2020-02-07 at 2.44.15 AM.png">
 <img src="/Users/ramozo_88/Twitter_Bot/images/Screen Shot 2020-02-07 at 2.44.32 AM.png">
 
+It seems that with a considerably less perplexity metric that the responses to customer questions are bottlenecked and clustered better. Which leads me to believe that the dataset could possibly be good to train a twitter chat bot for Apple Support. 
 
 ## Future Work 
+I would like to find a way using clustering to predict a questions cluster through one of the models. Then give the topic number return a generic response for the theme of the topic question.
 
-I would like to apply RNN and Seq2Seq to my X and y text to hopefully get a more intuitive way to predict responses given a question. 
+I would also like to apply RNN and Seq2Seq to my X and y text to hopefully get a more intuitive way to predict responses given a question. 
 
 
