@@ -62,7 +62,7 @@ def display_topics(model, feature_names, num_top_words):
 
 if __name__ == "__main__":
 
-    df_apple = clean_data()
+    df_apple_question_response = clean_data()
     apple_stop_words = ['applesupport', '115858', 'apple', 'https', 'gdrqu22ypt', 
                     'xxaxeesrt9', 'ibiy3vmgpj', '80yrnjdfdk', 'qodbosp4wz',
                    '116333', 'co', 've', '11', 'gdrqu2kzhr', 'etpvyvfyd8', '08olhchdnv'
