@@ -1,6 +1,6 @@
 # The Natural Process of Language Processing 
 
-## Table of Contents
+
 
 ## Introduction
 72% of U.S smartphone users use less than 7 apps in a day. In response to this consumer behavior, the social platforms that we all know and love have started letting companies build chatbots with them.
