@@ -13,12 +13,23 @@ The data I used was consumer twitter question and response dataset froma kaggle.
 
 <code>tweet_id  author_id	inbound  created_at text response_tweet_id in_response_to_tweet_id</code>
 
-![data screenshot]()
+<img src="/Users/ramozo_88/Twitter_Bot/images/Screen Shot 2020-02-06 at 10.47.21 PM.PNG">
+
+<img src="/Users/ramozo_88/Twitter_Bot/images/Screen Shot 2020-02-06 at 10.47.46 PM.PNG">
 
 ## EDA
+<img src='/Users/ramozo_88/Twitter_Bot/images/tweet_count_by_company.PNG'>
+<img src="/Users/ramozo_88/Twitter_Bot/images/Screen Shot 2020-02-06 at 2.30.58 PM.PNG">
+<img src="/Users/ramozo_88/Twitter_Bot/images/Screen Shot 2020-02-06 at 2.34.28 PM.PNG">
+<img src="/Users/ramozo_88/Twitter_Bot/images/Screen Shot 2020-02-06 at 2.36.07 PM.PNG">
+
+<img src="/Users/ramozo_88/Twitter_Bot/images/Screen Shot 2020-02-06 at 2.32.16 PM.PNG">
 
 ## Model
+<img src="/Users/ramozo_88/Twitter_Bot/images/kmeans_elbow_graph.PNG">
+<img src="/Users/ramozo_88/Twitter_Bot/images/kmeans_elbow_graph_silhouette.PNG">
 
 ## Future Work 
+
 
 
