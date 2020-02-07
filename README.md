@@ -13,7 +13,7 @@ I decided to work with a twitter customer question and response data set that in
 
 <code>tweet_id  author_id	inbound  created_at text response_tweet_id in_response_to_tweet_id</code>
 
-![screenshot](images/Screen Shot 2020-02-06 at 10.47.21 PM.PNG)
+![screenshot](https://github.com/reallyjosh4real/Twitter_Bot/blob/master/images/Screen_Shot_2020-02-06_at_10.47.21_PM.PNG)
 
 <img src="/Users/ramozo_88/Twitter_Bot/images/Screen Shot 2020-02-06 at 10.47.21 PM.PNG">
 
