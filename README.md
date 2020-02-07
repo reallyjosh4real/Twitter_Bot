@@ -28,7 +28,7 @@ I merged question tweets with response tweets on author_id and response_tweet_id
 
 From here I was interested in the emojis in the text. I was able to run the text through a spacy pipeline with an emoji paser. I managed to get the most frequent emojis used by customers directed at companies. Mostly emojis themed in frustration.
 
-![screenshot](/Users/ramozo_88/Twitter_Bot/images/Screen_Shot_2020-02-06_at_2.31.21_PM.md)
+![screenshot](/Users/ramozo_88/Twitter_Bot/images/Screen_Shot_2020-02-06_at_2.31.21_PM.PNG)
 
 <img src="/Users/ramozo_88/Twitter_Bot/images/Screen Shot 2020-02-06 at 2.31.21 PM.PNG">
 
